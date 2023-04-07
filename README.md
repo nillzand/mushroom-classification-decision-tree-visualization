@@ -16,6 +16,7 @@ Next, categorical variables in the dataset are label encoded using Scikit-learn'
 The dataset is then split into training and testing sets using Scikit-learn's train_test_split() function. The training set is used to train the Decision Tree Classifier, while the testing set is used to evaluate its performance.
 
 Model Training and Evaluation
+
 A Decision Tree Classifier is created using Scikit-learn's DecisionTreeClassifier() function. The classifier is then trained using the fit() function on the training data.
 
 The accuracy of the classifier is then evaluated using the score() function on the testing data.
